@@ -44,7 +44,7 @@ export default function Home() {
               <a href="https://github.com/Sxein" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">
                 <AiFillGithub className="size-10"/>
               </a>
-              <a href="https://www.linkedin.com/in/zayar-shein-980bb6286/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">
+              <a href="https://www.linkedin.com/in/zayar-shein-980bb6286/" target="_blank" rel="noopener noreferrer" className="hover:text-sky-700">
                 <FaLinkedin className="size-10"/>
               </a>
               <a href="mailto:zayarshein.mmdev@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">

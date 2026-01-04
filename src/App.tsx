@@ -1,6 +1,7 @@
 import NavigationBar from "./components/NavigationBar";
 
 import Home from "./components/Home";
+import About from "./components/About";
 
 function App() {
 
@@ -9,9 +10,7 @@ function App() {
       <NavigationBar />
       <main>
         <Home />
-        <section id="about" className="min-h-screen flex items-center justify-center bg-white">
-          <h2 className="text-4xl font-bold">About Section</h2>
-        </section>
+        <About />
         <section id="skills" className="min-h-screen flex items-center justify-center bg-white">
           <h2 className="text-4xl font-bold">Skills Section</h2>
         </section>

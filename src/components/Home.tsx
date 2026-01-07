@@ -12,7 +12,7 @@ export default function Home() {
         <section id="home" className="min-h-screen flex items-center justify-center bg-white">
           <div className="container mx-auto px-4 text-center">
             <h3 className="text-stone-900 text-xl sm:text-2xl md:text-3xl mb-2">Hi, my name is</h3>
-            <h1 className="text-emerald-900 text-5xl sm:text-6xl md:text-8xl font-bold mb-5">Zayar &nbsp;Shein .</h1>
+            <h1 className="text-amber-600 text-5xl sm:text-6xl md:text-8xl font-bold mb-5">Zayar&nbsp;Shein .</h1>
               <h2 className="text-stone-700 font-semibold text-3xl sm:text-4xl md:text-5xl min-h-20 sm:min-h-24 mb-4">
               I {' '}
               <TypeAnimation

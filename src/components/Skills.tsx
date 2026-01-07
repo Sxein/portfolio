@@ -1,32 +1,44 @@
 import { Expressjs, Nextjs, TypeScript, JavaScript , Python, Docker, Git, MongoDB, PostgreSQL, Firebase, Postman, MySQL, TailwindCSS, React, Django, AmazonWebServices  } from "./Icons"
 import SkillCard from "./SkillCard"
 
-const languages = [
-    { name: "JavaScript", Icon: JavaScript },
-    { name: "TypeScript", Icon: TypeScript },
-    { name: "Python", Icon: Python },
-]
+const categories = [
+    { 
+        title: "Languages", 
+        skills: [
+            { name: "JavaScript", Icon: JavaScript },
+            { name: "TypeScript", Icon: TypeScript },
+            { name: "Python", Icon: Python }
+        ] 
+    },
+    { 
+        title: "Frameworks & Libraries", 
+        skills: [
+            { name: "React.js", Icon: React }, 
+            { name: "Next.js", Icon: Nextjs }, 
+            { name: "Express.js", Icon: Expressjs }, 
+            { name: "Django", Icon: Django }, 
+            { name: "Tailwind CSS", Icon: TailwindCSS }
+        ]  
+    },
 
-const frameworksAndLibraries = [
-    { name: "React.js", Icon: React },
-    { name: "Next.js", Icon: Nextjs },
-    { name: "Express.js", Icon: Expressjs },
-    { name: "Django", Icon: Django },
-    { name: "Tailwind CSS", Icon: TailwindCSS },
-]
-
-const databases = [
-    { name: "MongoDB", Icon: MongoDB },
-    { name: "PostgreSQL", Icon: PostgreSQL },
-    { name: "MySQL", Icon: MySQL },
-    { name: "Firebase", Icon: Firebase },
-]
-
-const tools = [
-    { name: "Git", Icon: Git },
-    { name: "Docker", Icon: Docker },
-    { name: "Postman", Icon: Postman },
-    { name: "AWS", Icon: AmazonWebServices },
+    {
+        title: "Databases",
+        skills: [
+            { name: "MongoDB", Icon: MongoDB },
+            { name: "PostgreSQL", Icon: PostgreSQL },
+            { name: "MySQL", Icon: MySQL },
+            { name: "Firebase", Icon: Firebase }
+        ]
+    },
+    {
+        title: "Tools & Platforms",
+        skills: [
+            { name: "Docker", Icon: Docker },
+            { name: "Git", Icon: Git },
+            { name: "Postman", Icon: Postman },
+            { name: "AWS", Icon: AmazonWebServices }
+        ]
+    }
 ]
 
 export default function Skills() {
@@ -36,38 +48,16 @@ export default function Skills() {
                 <div className="text-center mb-16"> 
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900">My Tech Stack</h2>
                 </div>
-                <div>
-                    <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Languages</h2>
-                    <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {languages.map((skill, index) => (
-                            <SkillCard key={index} {...skill} />
-                        ))}
+                {categories.map((category, index) => (
+                    <div key={index}>
+                        <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">{category.title}</h2>
+                        <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
+                            {category.skills.map((skill, idx) => (
+                                <SkillCard key={idx} {...skill} />
+                            ))}
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Frameworks &amp; Libraries</h2>
-                    <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {frameworksAndLibraries.map((skill, index) => (
-                            <SkillCard key={index} {...skill} />
-                        ))}
-                    </div>
-                </div>
-                <div>
-                    <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Databases</h2>
-                    <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {databases.map((skill, index) => (
-                            <SkillCard key={index} {...skill} />
-                        ))}
-                    </div>
-                </div>
-                <div>
-                    <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Software &amp; Tools</h2>
-                    <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {tools.map((skill, index) => (
-                            <SkillCard key={index} {...skill} />
-                        ))}
-                    </div>
-                </div>
+                ))}
             </div>
         </section>
     )

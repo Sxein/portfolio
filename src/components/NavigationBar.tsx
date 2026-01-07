@@ -33,7 +33,6 @@ export default function NavigationBar() {
         <button onClick={toggleMenu}className="md:hidden hover:cursor-pointer hover:bg-gray-700 rounded px-3 py-2 hover:text-white">
             <CgMenu size={30}/>
         </button>
-
         {isOpen && (
             <div className="absolute top-18 left-0 w-full bg-white md:hidden flex flex-col items-center py-4 space-y-4 z-10">
                 {navItems.map((item) => (

@@ -1,5 +1,29 @@
 import EducationCard from "./EducationCard";
 
+const educationDetails = [
+    {
+        schoolName: "Temasek Polytechnic",
+        degree: "Diploma in Information Technology",
+        graduationYear: "2023 April - Present",
+        grade: "cGPA: 3.79 / 4.0",
+        link: "https://www.tp.edu.sg/home.html"
+    },
+    {
+        schoolName: "University of Medicine, Mandalay",
+        degree: "Bachelor of Medicine and Bachelor of Surgery (M.B., B.S.)",
+        graduationYear: "2019 - 2020",
+        grade: "Dropout",
+        link: "https://www.ummdy.gov.mm/"
+    },
+    {
+        schoolName: "Conqueror Academy of Education",
+        degree: "Basic Education High School Certificate",
+        graduationYear: "2016 - 2019",
+        grade: "All Subjects with Distinction",
+        link: "https://www.caemyanmar.com/"
+    }
+];
+
 export default function About() {
   return (
     <section id="about" className="py-20 w-full bg-white">
@@ -31,27 +55,12 @@ export default function About() {
             <h2 className="text-4xl font-bold text-gray-900">Education</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <EducationCard 
-            schoolName="Temasek Polytechnic" 
-            degree="Diploma in Information Technology" 
-            graduationYear="2023 April - Present" 
-            grade="cGPA: 3.79 / 4.0" 
-            link="https://www.tp.edu.sg/home.html"
-            />
-            <EducationCard 
-            schoolName="University of Medicine, Mandalay" 
-            degree="Bachelor of Medicine and Bachelor of Surgery (M.B., B.S.)" 
-            graduationYear="2019 - 2020" 
-            grade="Dropout" 
-            link="https://www.ummdy.gov.mm/"
-            />
-            <EducationCard 
-            schoolName="Conqueror Academy of Education" 
-            degree="Basic Education High School Certificate" 
-            graduationYear="2016 - 2019" 
-            grade="All Subjects with Distinction"
-            link="https://www.caemyanmar.com/"
-            />
+            {educationDetails.map((edu, index) => (
+                <EducationCard 
+                    key={index}
+                    {...edu}
+                />
+            ))}
         </div>
       </div>
       

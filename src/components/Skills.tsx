@@ -39,32 +39,32 @@ export default function Skills() {
                 <div>
                     <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Languages</h2>
                     <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {languages.map(({ name, Icon }) => (
-                            <SkillCard key={name} name={name} Icon={Icon} />
+                        {languages.map((skill, index) => (
+                            <SkillCard key={index} {...skill} />
                         ))}
                     </div>
                 </div>
                 <div>
                     <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Frameworks &amp; Libraries</h2>
                     <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {frameworksAndLibraries.map(({ name, Icon }) => (
-                            <SkillCard key={name} name={name} Icon={Icon} />
+                        {frameworksAndLibraries.map((skill, index) => (
+                            <SkillCard key={index} {...skill} />
                         ))}
                     </div>
                 </div>
                 <div>
                     <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Databases</h2>
                     <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {databases.map(({ name, Icon }) => (
-                            <SkillCard key={name} name={name} Icon={Icon} />
+                        {databases.map((skill, index) => (
+                            <SkillCard key={index} {...skill} />
                         ))}
                     </div>
                 </div>
                 <div>
                     <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">Software &amp; Tools</h2>
                     <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
-                        {tools.map(({ name, Icon }) => (
-                            <SkillCard key={name} name={name} Icon={Icon} />
+                        {tools.map((skill, index) => (
+                            <SkillCard key={index} {...skill} />
                         ))}
                     </div>
                 </div>

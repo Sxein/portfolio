@@ -1,8 +1,8 @@
-import NavigationBar from "./components/NavigationBar";
+import NavigationBar from "./components/NavBar/NavigationBar";
 
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
+import Home from "./components/Home/HomeSection";
+import About from "./components/About/AboutSection";
+import Skills from "./components/Skills/SkillsSection";
 
 function App() {
 

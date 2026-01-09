@@ -1,4 +1,4 @@
-import EducationCard from "./EducationCard";
+import EducationCard from "../About/EducationCard";
 
 const educationDetails = [
     {

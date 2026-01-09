@@ -20,8 +20,5 @@ export default function EducationCard({ schoolName, degree, graduationYear, grad
                     <p className="text-xl font-bold text-amber-600">{grade}</p>
                 </div>
             </a>
-            
-            
-
     )
 }

@@ -1,4 +1,4 @@
-import { Expressjs, Nextjs, TypeScript, JavaScript , Python, Docker, Git, MongoDB, PostgreSQL, Firebase, Postman, MySQL, TailwindCSS, React, Django, AmazonWebServices  } from "./Icons"
+import { Expressjs, Nextjs, TypeScript, JavaScript , Python, Docker, Git, MongoDB, PostgreSQL, Firebase, Postman, MySQL, TailwindCSS, React, Django, AmazonWebServices  } from "../ui/DevIcons"
 import SkillCard from "./SkillCard"
 
 const categories = [

@@ -1,4 +1,4 @@
-import {Button} from "./Button";
+import {Button} from "@/components/ui/Button";
 import { Link } from "react-scroll";
 import { HiDownload } from "react-icons/hi";
 import { AiFillGithub } from "react-icons/ai";

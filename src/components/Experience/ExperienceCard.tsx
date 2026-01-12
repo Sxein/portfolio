@@ -13,10 +13,12 @@ export default function ExperienceCard({ role, company, companyLink, duration, d
         <div className="relative pl-8 sm:pl-48 py-2 group">
             <div className={`flex flex-col sm:flex-row items-center mb-1 
                 before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-border sm:before:ml-38 before:self-start before:-translate-x-1/2 before:translate-y-3 
-                after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-sky-600 after:border-4 after:box-content after:border-background after:rounded-full sm:after:ml-38 after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:z-10`
+                after:absolute after:left-2 sm:after:left-0 after:size-3 after:bg-sky-500 after:ring-4 after:ring-sky-100 dark:after:ring-sky-900/30 after:rounded-full sm:after:ml-38 after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:z-10 group-hover:after:scale-125 transition-transform duration-300`
             }>
-                <time className="sm:absolute left-0 top-1/2 -translate-y-1/2 inline-flex items-center justify-center text-xs font-bold uppercase w-32 h-6 mb-8 sm:mb-0 text-sky-600 bg-sky-100 dark:bg-sky-900/30 rounded-full sm:rounded-none sm:bg-transparent sm:text-muted-foreground sm:justify-end sm:pr-6 sm:text-base sm:font-semibold sm:w-36">
-                    {duration}
+                <time className="sm:absolute left-0 top-1/2 -translate-y-1/2 inline-flex items-center justify-center sm:justify-end mb-8 sm:mb-0 sm:pr-6 sm:w-36">
+                    <span className="text-xs font-semibold uppercase px-4 py-1 text-sky-600 bg-sky-50 dark:bg-sky-900/20 border border-sky-100 dark:border-sky-800 rounded-full sm:text-sm sm:font-medium">
+                        {duration}
+                    </span>
                 </time>
                 <div className="sr-only">{role}</div>
             </div>

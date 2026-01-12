@@ -13,8 +13,8 @@ export default function NavigationBar() {
             {name: "Home", linkTo: "home"},
             {name: "About", linkTo: "about"},
             {name: "Skills", linkTo: "skills"},
-            {name: "Projects", linkTo: "projects"},
             {name: "Experience", linkTo: "experience"},
+            {name: "Projects", linkTo: "projects"},
             {name: "Contact", linkTo: "contact"},
         ]
   return (
@@ -24,18 +24,18 @@ export default function NavigationBar() {
             <h1 className="text-3xl font-bold">Z_</h1>
         </div>
         <div className="flex items-center gap-4">
-            <ul className="hidden md:flex space-x-8 items-center">
+            <ul className="hidden lg:flex space-x-8 items-center">
                 {navItems.map((item) => (
                     <li key={item.name}>
                         <NavButton linkTo={item.linkTo}>{item.name}</NavButton>
                     </li>
                 ))}
             </ul>
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
                 <ModeToggle />
             </div>
         </div>
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
              <ModeToggle />
             <button onClick={toggleMenu} className="hover:cursor-pointer hover:bg-muted rounded px-3 py-2 hover:text-foreground">
                 <CgMenu size={30}/>

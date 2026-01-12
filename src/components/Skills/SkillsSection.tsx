@@ -43,14 +43,14 @@ const categories = [
 
 export default function Skills() {
     return (
-        <section id="skills" className="md:py-20 py-10 w-full bg-white">
+        <section id="skills" className="md:py-20 py-10 w-full bg-background">
             <div className="max-w-6xl mx-auto px-10 ">
                 <div className="text-center mb-16"> 
-                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900">My Tech Stack</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-foreground">My Tech Stack</h2>
                 </div>
                 {categories.map((category, index) => (
                     <div key={index}>
-                        <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">{category.title}</h2>
+                        <h2 className="text-2xl text-foreground font-semibold text-center md:text-start">{category.title}</h2>
                         <div className="flex flex-wrap md:gap-5 gap-9 justify-start p-6 rounded-lg">
                             {category.skills.map((skill, idx) => (
                                 <SkillCard key={idx} {...skill} />

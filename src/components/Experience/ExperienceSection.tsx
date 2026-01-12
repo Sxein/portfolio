@@ -23,11 +23,11 @@ const experiences = [
 
 export default function Experience() {
     return (
-        <section id="experience" className="md:py-20 py-10 w-full bg-slate-50">
+        <section id="experience" className="md:py-20 py-10 w-full bg-secondary/20">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Experience</h2>
-                    <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                    <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience</h2>
+                    <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                         My professional journey and the technical milestones I've achieved along the way.
                     </p>
                 </div>

@@ -23,8 +23,8 @@ export default function Projects() {
         <section id="projects" className="py-20 w-full">
              <div className="max-w-6xl mx-auto px-6 sm:px-10">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Featured Projects</h2>
-                    <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                    <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Featured Projects</h2>
+                    <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                         A selection of projects where I've turned complex problems into elegant solutions.
                     </p>
                 </div>

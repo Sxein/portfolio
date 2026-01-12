@@ -13,24 +13,24 @@ export default function Contact() {
     };
 
     return (
-        <section id="contact" className="py-20 w-full bg-slate-50 relative overflow-hidden">
+        <section id="contact" className="py-20 w-full bg-secondary/20 relative overflow-hidden">
             <div className="absolute inset-0 opacity-[0.03]"></div>
 
             <div className="max-w-4xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Get In Touch</h2>
-                    <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                    <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Get In Touch</h2>
+                    <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
                         I'm currently looking for new opportunities. Whether you have a question, a project to discuss, or just want to say hi, I'll try my best to get back to you!
                     </p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8 items-stretch">
-                    <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-center items-center text-center hover:shadow-md transition-shadow">
-                        <div className="bg-sky-50 p-4 rounded-full mb-4">
+                    <div className="bg-card p-8 rounded-2xl shadow-sm border border-border flex flex-col justify-center items-center text-center hover:shadow-md transition-shadow">
+                        <div className="bg-sky-50 dark:bg-sky-900/20 p-4 rounded-full mb-4">
                             <MdEmail className="w-8 h-8 text-sky-600" />
                         </div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">Send me an email</h3>
-                        <p className="text-slate-500 mb-6">
+                        <h3 className="text-xl font-bold text-foreground mb-2">Send me an email</h3>
+                        <p className="text-muted-foreground mb-6">
                             The best way to reach me. I reply within 24 hours.
                         </p>
                         <a 
@@ -84,7 +84,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <footer className="mt-20 text-center text-slate-400 text-sm">
+                <footer className="mt-20 text-center text-muted-foreground text-sm">
                     <p>Designed & Built by Zayar Shein</p>
                     <div className="flex justify-center gap-4 mt-2">
                         <span>React</span>•<span>Tailwind CSS</span>•<span>Vite</span>

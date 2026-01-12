@@ -14,8 +14,8 @@ interface ProjectProps {
 
 export default function ProjectCard({ title, description, technologies, githubLink, liveLink, image }: ProjectProps) {
     return (
-        <div className="group relative bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-sky-200 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
-            <div className="relative h-48 overflow-hidden bg-slate-100">
+        <div className="group relative bg-card rounded-2xl overflow-hidden border border-border hover:border-sky-500/50 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+            <div className="relative h-48 overflow-hidden bg-muted">
                 {image ? (
                     <img 
                         src={image} 
@@ -23,7 +23,7 @@ export default function ProjectCard({ title, description, technologies, githubLi
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                 ) : (
-                    <div className="w-full h-full flex items-center justify-center text-slate-300">
+                    <div className="w-full h-full flex items-center justify-center text-muted-foreground">
                         <FaFolder size={40} />
                     </div>
                 )}
@@ -56,12 +56,12 @@ export default function ProjectCard({ title, description, technologies, githubLi
 
             <div className="flex flex-col grow p-6">
                 <div className="flex justify-between items-start mb-3">
-                    <h3 className="text-xl font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
+                    <h3 className="text-xl font-bold text-card-foreground group-hover:text-sky-600 transition-colors">
                         {title}
                     </h3>
                 </div>
 
-                <p className="text-slate-600 text-sm leading-relaxed mb-6 grow">
+                <p className="text-muted-foreground text-sm leading-relaxed mb-6 grow">
                     {description}
                 </p>
 
@@ -70,7 +70,7 @@ export default function ProjectCard({ title, description, technologies, githubLi
                         {technologies.map((tech, index) => (
                             <span 
                                 key={index} 
-                                className="px-2.5 py-1 text-xs font-medium text-slate-600 bg-slate-50 border border-slate-100 rounded-md group-hover:border-sky-100 group-hover:bg-sky-50 group-hover:text-sky-700 transition-colors"
+                                className="px-2.5 py-1 text-xs font-medium text-muted-foreground bg-secondary border border-border rounded-md group-hover:border-sky-200 group-hover:bg-sky-50 dark:group-hover:bg-sky-900/20 group-hover:text-sky-700 dark:group-hover:text-sky-400 transition-colors"
                             >
                                 {tech}
                             </span>

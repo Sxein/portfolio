@@ -26,13 +26,13 @@ const educationDetails = [
 
 export default function About() {
   return (
-    <section id="about" className="md:py-20 py-10 w-full bg-white">
+    <section id="about" className="md:py-20 py-10 w-full bg-background">
       <div className="max-w-6xl mx-auto px-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">About Me</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground">About Me</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-          <div className="flex flex-col gap-6 text-left">
+          <div className="flex flex-col gap-6 text-left text-muted-foreground">
             <p className="text-lg">
               I'm Full-Stack Developer with a passion for creating efficient and scalable web applications. Specialized in React.js, Next.js and modern web technologies, I transform ideas into applications.
             </p>
@@ -44,7 +44,7 @@ export default function About() {
             </p >
           </div>
           <div className="flex justify-center">
-            <div className=" w-80 h-96 bg-gray-200 rounded-2xl overflow-hidden shadow-lg">
+            <div className=" w-80 h-96 bg-muted rounded-2xl overflow-hidden shadow-lg border border-border">
                <img src="/profile.jpeg" alt="Profile" className="w-full h-full object-cover" />
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function About() {
       </div>
       <div className="max-w-6xl mx-auto mt-20 px-4">
         <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900">Education</h2>
+            <h2 className="text-4xl font-bold text-foreground">Education</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {educationDetails.map((edu, index) => (

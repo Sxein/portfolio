@@ -1,4 +1,5 @@
 import ExperienceCard from "./ExperienceCard";
+import FadeIn from "../ui/FadeIn";
 
 const experiences = [
     {
@@ -25,18 +26,21 @@ export default function Experience() {
     return (
         <section id="experience" className="md:py-20 py-10 w-full bg-secondary/20">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience</h2>
-                    <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                        My professional journey and the technical milestones I've achieved along the way.
-                    </p>
-                </div>
+                <FadeIn>
+                    <div className="text-center mb-16">
+                        <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience</h2>
+                        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                            My professional journey and the technical milestones I've achieved along the way.
+                        </p>
+                    </div>
+                </FadeIn>
                 <div className="space-y-6">
                     {experiences.map((exp, index) => (
-                        <ExperienceCard 
-                            key={index}
-                            {...exp}
-                        />
+                        <FadeIn key={index} delay={index * 0.2}>
+                            <ExperienceCard 
+                                {...exp}
+                            />
+                        </FadeIn>
                     ))}
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import { Expressjs, Nextjs, TypeScript, JavaScript , Python, Docker, Git, MongoDB, PostgreSQL, Firebase, Postman, MySQL, TailwindCSS, React, Django, AmazonWebServices  } from "../ui/DevIcons"
 import SkillCard from "./SkillCard"
+import FadeIn from "../ui/FadeIn"
 
 const categories = [
     { 
@@ -45,15 +46,21 @@ export default function Skills() {
     return (
         <section id="skills" className="md:py-20 py-10 w-full bg-background">
             <div className="max-w-6xl mx-auto px-10 ">
-                <div className="text-center mb-16"> 
-                    <h2 className="text-4xl md:text-5xl font-bold text-foreground">My Tech Stack</h2>
-                </div>
+                <FadeIn>
+                    <div className="text-center mb-16"> 
+                        <h2 className="text-4xl md:text-5xl font-bold text-foreground">My Tech Stack</h2>
+                    </div>
+                </FadeIn>
                 {categories.map((category, index) => (
                     <div key={index}>
-                        <h2 className="text-2xl text-foreground font-semibold text-center md:text-start">{category.title}</h2>
+                        <FadeIn delay={index * 0.1}>
+                            <h2 className="text-2xl text-foreground font-semibold text-center md:text-start">{category.title}</h2>
+                        </FadeIn>
                         <div className="flex flex-wrap md:gap-5 gap-9 justify-start p-6 rounded-lg">
                             {category.skills.map((skill, idx) => (
-                                <SkillCard key={idx} {...skill} />
+                                <FadeIn key={idx} delay={(index * 0.1) + (idx * 0.05)}>
+                                    <SkillCard {...skill} />
+                                </FadeIn>
                             ))}
                         </div>
                     </div>

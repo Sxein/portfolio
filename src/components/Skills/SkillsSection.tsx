@@ -51,7 +51,7 @@ export default function Skills() {
                 {categories.map((category, index) => (
                     <div key={index}>
                         <h2 className="text-2xl text-stone-900 font-semibold text-center md:text-start">{category.title}</h2>
-                        <div className="flex flex-wrap md:gap-5 gap-9 justify-start my-4 p-6 rounded-lg">
+                        <div className="flex flex-wrap md:gap-5 gap-9 justify-start p-6 rounded-lg">
                             {category.skills.map((skill, idx) => (
                                 <SkillCard key={idx} {...skill} />
                             ))}

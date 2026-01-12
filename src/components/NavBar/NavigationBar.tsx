@@ -23,7 +23,7 @@ export default function NavigationBar() {
             <h1 className="text-3xl font-bold">Z_</h1>
         </div>
         <div>
-            <ul className="hidden md:flex space-x-10">
+            <ul className="hidden md:flex space-x-8">
                 {navItems.map((item) => (
                     <li key={item.name}>
                         <NavButton linkTo={item.linkTo}>{item.name}</NavButton>

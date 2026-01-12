@@ -5,6 +5,7 @@ import About from "./components/About/AboutSection";
 import Skills from "./components/Skills/SkillsSection";
 import Experience from "./components/Experience/ExperienceSection";
 import Projects from "./components/Projects/ProjectSection";
+import Contact from "./components/Contact/ContactSection";
 
 function App() {
 
@@ -17,9 +18,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
-        <section id="contact" className="min-h-screen flex items-center justify-center bg-white">
-          <h2 className="text-4xl font-bold">Contact Section</h2>
-        </section>
+        <Contact />
       </main>
     </>
   )

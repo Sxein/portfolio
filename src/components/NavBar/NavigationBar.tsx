@@ -17,7 +17,7 @@ export default function NavigationBar() {
         ]
   return (
     <>
-    <nav className="fixed w-full top-0 flex px-8 md:px-20 h-16 bg-white text-black justify-between items-center border-b border-gray-300">
+    <nav className="fixed w-full top-0 flex px-8 md:px-20 h-16 bg-white text-black justify-between items-center border-b border-gray-300 z-50">
         <div>
             <h1 className="text-3xl font-bold">Z_</h1>
         </div>

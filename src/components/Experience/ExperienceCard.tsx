@@ -11,10 +11,9 @@ interface ExperienceProps {
 export default function ExperienceCard({ role, company, companyLink, duration, description, technologies, projectLink }: ExperienceProps) {
     return (
         <div className="relative pl-8 sm:pl-48 py-2 group">
-            {/* Timeline Line & Dot */}
             <div className={`flex flex-col sm:flex-row items-center mb-1 
-                before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[9.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 
-                after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-sky-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[9.5rem] after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:z-10`
+                before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-38 before:self-start before:-translate-x-1/2 before:translate-y-3 
+                after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-sky-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-38 after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:z-10`
             }>
                 <time className="sm:absolute left-0 top-1/2 -translate-y-1/2 inline-flex items-center justify-center text-xs font-bold uppercase w-32 h-6 mb-8 sm:mb-0 text-sky-600 bg-sky-100 rounded-full sm:rounded-none sm:bg-transparent sm:text-slate-500 sm:justify-end sm:pr-6 sm:text-base sm:font-semibold sm:w-36">
                     {duration}
@@ -22,7 +21,6 @@ export default function ExperienceCard({ role, company, companyLink, duration, d
                 <div className="sr-only">{role}</div>
             </div>
 
-            {/* Card Content - Cooler Design */}
             <div className="relative bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md hover:border-sky-100 transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-lg">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
                     <div>

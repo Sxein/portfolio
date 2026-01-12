@@ -26,7 +26,7 @@ const educationDetails = [
 
 export default function About() {
   return (
-    <section id="about" className="py-20 w-full bg-white">
+    <section id="about" className="md:py-20 py-10 w-full bg-white">
       <div className="max-w-6xl mx-auto px-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">About Me</h2>

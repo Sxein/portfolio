@@ -1,4 +1,5 @@
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from "@vercel/analytics/react";
 import NavigationBar from "./components/NavBar/NavigationBar";
 import Home from "./components/Home/HomeSection";
 import About from "./components/About/AboutSection";
@@ -19,7 +20,8 @@ function App() {
         <Experience />
         <Projects />
         <Contact />
-      </main>
+      </main>      
+      <Analytics />    
     </ThemeProvider>
   )
 }

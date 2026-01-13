@@ -92,10 +92,7 @@ export default function Contact() {
                 </div>
 
                 <footer className="mt-20 text-center text-muted-foreground text-sm">
-                    <p>Designed & Built by Zayar Shein</p>
-                    <div className="flex justify-center gap-4 mt-2">
-                        <span>React</span>•<span>Tailwind CSS</span>•<span>Vite</span>
-                    </div>
+                    <p>Copyright © 2026 Zayar Shein. All rights reserved.</p>
                 </footer>
             </div>
         </section>

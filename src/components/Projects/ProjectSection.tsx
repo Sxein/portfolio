@@ -17,6 +17,14 @@ const projects = [
         liveLink: "https://zayarshein.com", // Placeholder
         image: "/Portfolio.png" 
     },
+    {
+        title: "Project Management",
+        description: "A project management tool built with React and Tailwind CSS. Features a clean UI, component-based architecture, and responsive design.",
+        technologies: ["React", "Javascript", "Tailwind CSS", "Vite"],
+        githubLink: "https://github.com/Sxein/project-management",
+        liveLink: "https://project-management-react-five.vercel.app/",
+        image: "/project_management.png"
+    }
 ];
 
 export default function Projects() {

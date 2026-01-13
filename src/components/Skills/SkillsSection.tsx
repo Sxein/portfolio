@@ -49,6 +49,7 @@ export default function Skills() {
                 <FadeIn>
                     <div className="text-center mb-16"> 
                         <h2 className="text-4xl md:text-5xl font-bold text-foreground">My Tech Stack</h2>
+                        <p className="text-muted-foreground text-lg mt-4">Technical tools which bring my idea to life.</p>
                     </div>
                 </FadeIn>
                 {categories.map((category, index) => (

@@ -11,13 +11,13 @@ const educationJourney = [
             tooltipDescription: "One of the prestigious medical universities in Myanmar, known for producing skilled healthcare professionals."
         },
         degree: "Bachelor of Medicine (M.B.B.S.)",
-        description: "I started my journey pursuing medicine in Myanmar — a path I once thought was my calling. But life had different plans."
+        description: "I started my journey pursuing medicine in Myanmar, a path I once thought was my calling. But life had different plans."
     },
     {
         year: "2021 — 2022",
         title: "The Interruption",
         degree: "When the pandemic hit and political turmoil swept through Myanmar, my studies came to an abrupt halt.",
-        description: "Instead of waiting, I turned uncertainty into opportunity. The military coup changed everything overnight. With universities closed indefinitely, I discovered web development through online courses — teaching myself HTML, CSS, JavaScript, and React one tutorial at a time. What started as a way to stay productive became a genuine passion."
+        description: "Instead of waiting, I turned uncertainty into opportunity. The military coup changed everything overnight. With universities closed indefinitely, I discovered web development through online courses, teaching myself HTML, CSS, JavaScript, and React one tutorial at a time. What started as a way to stay productive became a genuine passion."
     },
     {
         year: "2023 — Present",
@@ -80,7 +80,7 @@ export default function About() {
           <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-foreground mb-4">My Journey</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                From medical school in Myanmar to software development in Singapore — here's how an unexpected detour led me to discover my true passion.
+                From medical school in Myanmar to software development in Singapore, here's how an unexpected detour led me to discover my true passion.
               </p>
           </div>
         </FadeIn>

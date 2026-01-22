@@ -5,7 +5,7 @@ const projects = [
     {
         title: "JurisAI",
         description: "A legal-tech platform enabling workspaces for document management and intelligent querying. Features a RAG-based chatbot and a high-performance search engine indexing 10k+ cases.",
-        technologies: ["React", "Django", "PostgreSQL", "RAGFlow", "Docker"],
+        technologies: ["HTML","CSS", "JavaScript","Django", "Python", "PostgreSQL", "RAGFlow", "Docker"],
         liveLink: "https://jurisai.tech",
         image: "/JurisAI.tech.png"
     },

@@ -8,7 +8,7 @@ const experiences = [
         companyLink: "https://www.bizibody.biz/",
         duration: "2025 Sep - Present",
         description: "Developed 'JurisAI', a legal-tech platform enabling workspaces for document management and intelligent querying. Integrated a RAG-based chatbot for workspace-specific Q&A and implemented a high-performance Legal Search engine indexing over 10,000 cases using RAGFlow.",
-        technologies: ["Django", "Docker", "PostgreSQL", "RAGFlow", "HTML/CSS", "JavaScript"],
+        technologies: ["Django", "Docker", "PostgreSQL", "RAGFlow", "HTML/CSS", "JavaScript", "Python"],
         projectLink: "https://jurisai.tech"
     },
 ];

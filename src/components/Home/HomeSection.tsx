@@ -1,6 +1,7 @@
 import {Button} from "@/components/ui/Button";
 import { Link } from "react-scroll";
-import { HiDownload } from "react-icons/hi";
+// import { HiDownload } from "react-icons/hi";
+import { IoDocumentTextOutline } from "react-icons/io5";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -36,7 +37,7 @@ export default function Home() {
               </Button>
               <Button asChild size="xl" variant="primary">
                 <a href="/Zayar_Shein_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                  <HiDownload className="size-6"/>Download CV
+                  <IoDocumentTextOutline className="size-6"/>View Resume
                 </a>
               </Button>
             </div>

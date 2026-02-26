@@ -10,12 +10,11 @@ const projects = [
         image: "/JurisAI.tech.png"
     },
     {
-        title: "Portfolio Website",
-        description: "A modern, developer-centric portfolio website built with React and Tailwind CSS. Features a clean UI, component-based architecture, and responsive design.",
-        technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-        githubLink: "https://github.com/Sxein/portfolio",
-        liveLink: "https://zayarshein.com", // Placeholder
-        image: "/Portfolio.png" 
+        title: "Flux",
+        description: "Flux is an AI-powered assistant that helps job seekers organize their applications and automatically tailors their resumes to perfectly match any job description.",
+        technologies: ["Next.js", "Supabase", "TypeScript", 'Shadcn UI', "OpenRouter" , "Vercel"],
+        liveLink: "https://flux-job-hunt.vercel.app/",
+        image: "/flux.png"
     },
     {
         title: "Project Management",

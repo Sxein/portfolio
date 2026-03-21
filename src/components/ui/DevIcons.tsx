@@ -477,4 +477,180 @@ const AmazonWebServices = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export { Expressjs, Nextjs, TypeScript, JavaScript , LinkedIn, Nodejs, Python, Docker, Git, MongoDB, PostgreSQL, Firebase, Postman, MySQL, TailwindCSS, React, Django, AmazonWebServices };
+const Supabase = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 109 113" fill="none">
+    <path
+      d="M63.7076 110.284C60.8481 113.885 55.0502 111.912 54.9813 107.314L53.9738 40.0627L99.1935 40.0627C107.384 40.0627 111.952 49.5228 106.859 55.9374L63.7076 110.284Z"
+      fill="url(#supabase__paint0_linear)"
+    />
+    <path
+      d="M63.7076 110.284C60.8481 113.885 55.0502 111.912 54.9813 107.314L53.9738 40.0627L99.1935 40.0627C107.384 40.0627 111.952 49.5228 106.859 55.9374L63.7076 110.284Z"
+      fill="url(#supabase__paint1_linear)"
+      fill-opacity="0.2"
+    />
+    <path
+      d="M45.317 2.07103C48.1765 -1.53037 53.9745 0.442937 54.0434 5.041L54.4849 72.2922H9.83113C1.64038 72.2922 -2.92775 62.8321 2.1655 56.4175L45.317 2.07103Z"
+      fill="#3ECF8E"
+    />
+    <defs>
+      <linearGradient
+        id="supabase__paint0_linear"
+        x1="53.9738"
+        y1="54.974"
+        x2="94.1635"
+        y2="71.8295"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#249361" />
+        <stop offset="1" stopColor="#3ECF8E" />
+      </linearGradient>
+      <linearGradient
+        id="supabase__paint1_linear"
+        x1="36.1558"
+        y1="30.578"
+        x2="54.4844"
+        y2="65.0806"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop />
+        <stop offset="1" stopOpacity="0" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+const Prisma = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 256 310" preserveAspectRatio="xMidYMid">
+    <path d="M254.313 235.519L148 9.749A17.063 17.063 0 00133.473.037a16.87 16.87 0 00-15.533 8.052L2.633 194.848a17.465 17.465 0 00.193 18.747L59.2 300.896a18.13 18.13 0 0020.363 7.489l163.599-48.392a17.929 17.929 0 0011.26-9.722 17.542 17.542 0 00-.101-14.76l-.008.008zm-23.802 9.683l-138.823 41.05c-4.235 1.26-8.3-2.411-7.419-6.685l49.598-237.484c.927-4.443 7.063-5.147 9.003-1.035l91.814 194.973a6.63 6.63 0 01-4.18 9.18h.007z" />
+  </svg>
+);
+
+
+const Shadcnui = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 256 256">
+    <path fill="none" d="M0 0h256v256H0z" />
+    <path
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="25"
+      strokeLinecap="round"
+      d="M208 128l-80 80M192 40L40 192"
+    />
+  </svg>
+);
+
+
+const OpenRouter = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 512 512" fill="#111111" stroke="#111111">
+    <g clipPath="url(#openrouter_light__clip0_205_3)">
+      <path
+        d="M3 248.945C18 248.945 76 236 106 219C136 202 136 202 198 158C276.497 102.293 332 120.945 423 120.945"
+        strokeWidth="90"
+      />
+      <path d="M511 121.5L357.25 210.268L357.25 32.7324L511 121.5Z" />
+      <path
+        d="M0 249C15 249 73 261.945 103 278.945C133 295.945 133 295.945 195 339.945C273.497 395.652 329 377 420 377"
+        strokeWidth="90"
+      />
+      <path d="M508 376.445L354.25 287.678L354.25 465.213L508 376.445Z" />
+    </g>
+  </svg>
+);
+
+
+const OpenClaw = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 120 120" fill="none">
+    <defs>
+      <linearGradient
+        id="openclaw__lobster-gradient"
+        x1="0%"
+        y1="0%"
+        x2="100%"
+        y2="100%"
+      >
+        <stop offset="0%" stopColor="#ff4d4d" />
+        <stop offset="100%" stopColor="#991b1b" />
+      </linearGradient>
+    </defs>
+    <path
+      d="M60 10 C30 10 15 35 15 55 C15 75 30 95 45 100 L45 110 L55 110 L55 100 C55 100 60 102 65 100 L65 110 L75 110 L75 100 C90 95 105 75 105 55 C105 35 90 10 60 10Z"
+      fill="url(#openclaw__lobster-gradient)"
+    />
+    <path
+      d="M20 45 C5 40 0 50 5 60 C10 70 20 65 25 55 C28 48 25 45 20 45Z"
+      fill="url(#openclaw__lobster-gradient)"
+    />
+    <path
+      d="M100 45 C115 40 120 50 115 60 C110 70 100 65 95 55 C92 48 95 45 100 45Z"
+      fill="url(#openclaw__lobster-gradient)"
+    />
+    <path
+      d="M45 15 Q35 5 30 8"
+      stroke="#ff4d4d"
+      strokeWidth="3"
+      strokeLinecap="round"
+    />
+    <path
+      d="M75 15 Q85 5 90 8"
+      stroke="#ff4d4d"
+      strokeWidth="3"
+      strokeLinecap="round"
+    />
+    <circle cx="45" cy="35" r="6" fill="#050810" />
+    <circle cx="75" cy="35" r="6" fill="#050810" />
+    <circle cx="46" cy="34" r="2.5" fill="#00e5cc" />
+    <circle cx="76" cy="34" r="2.5" fill="#00e5cc" />
+  </svg>
+);
+
+const GitHub = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 1024 1024" fill="none">
+    <path
+      fill="#1b1f23"
+      fillRule="evenodd"
+      d="M512 0C229.12 0 0 229.12 0 512c0 226.56 146.56 417.92 350.08 485.76 25.6 4.48 35.2-10.88 35.2-24.32 0-12.16-.64-52.48-.64-95.36-128.64 23.68-161.92-31.36-172.16-60.16-5.76-14.72-30.72-60.16-52.48-72.32-17.92-9.6-43.52-33.28-.64-33.92 40.32-.64 69.12 37.12 78.72 52.48 46.08 77.44 119.68 55.68 149.12 42.24 4.48-33.28 17.92-55.68 32.64-68.48-113.92-12.8-232.96-56.96-232.96-252.8 0-55.68 19.84-101.76 52.48-137.6-5.12-12.8-23.04-65.28 5.12-135.68 0 0 42.88-13.44 140.8 52.48 40.96-11.52 84.48-17.28 128-17.28s87.04 5.76 128 17.28c97.92-66.56 140.8-52.48 140.8-52.48 28.16 70.4 10.24 122.88 5.12 135.68 32.64 35.84 52.48 81.28 52.48 137.6 0 196.48-119.68 240-233.6 252.8 18.56 16 34.56 46.72 34.56 94.72 0 68.48-.64 123.52-.64 140.8 0 13.44 9.6 29.44 35.2 24.32C877.44 929.92 1024 737.92 1024 512 1024 229.12 794.88 0 512 0"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+
+
+const HTML5 = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 452 520">
+    <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
+    <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
+    <path
+      fill="#ecedee"
+      d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"
+    />
+    <path
+      fill="#fff"
+      d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"
+    />
+  </svg>
+);
+
+const CSS = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 512 512">
+    <path
+      fill="#264de4"
+      d="M71.357 460.819 30.272 0h451.456l-41.129 460.746L255.724 512z"
+    />
+    <path fill="#2965f1" d="m405.388 431.408 35.148-393.73H256v435.146z" />
+    <path
+      fill="#ebebeb"
+      d="m124.46 208.59 5.065 56.517H256V208.59zm-5.041-57.875H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"
+    />
+    <path
+      fill="#fff"
+      d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"
+    />
+  </svg>
+);
+
+
+export { Expressjs, Nextjs, TypeScript, JavaScript ,
+  LinkedIn, Nodejs, Python, Docker, Git, MongoDB, 
+  PostgreSQL, Firebase, Postman, MySQL, TailwindCSS, 
+  React, Django, AmazonWebServices, Supabase, Prisma, 
+  Shadcnui, OpenRouter, OpenClaw, GitHub, HTML5, CSS };

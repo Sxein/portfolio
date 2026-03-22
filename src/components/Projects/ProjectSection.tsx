@@ -10,6 +10,13 @@ const projects = [
         image: "/JurisAI.tech.png"
     },
     {
+        title: "Legal Onboarding Bot",
+        description: "A multilingual Telegram bot and secure backend system that automates legal onboarding for migrant workers, featuring real-time translation, dynamic AI interviews, and automated affidavit generation.",
+        technologies: ["OpenClaw", "Telegram Bot API"],
+        liveLink: "https://youtu.be/g4YsYH6fByI",
+        image: '/JurisAI_OnBoarder.png'
+    },
+    {
         title: "Flux",
         description: "Flux is an AI-powered assistant that helps job seekers organize their applications and automatically tailors their resumes to perfectly match any job description.",
         technologies: ["Next.js", "Supabase", "TypeScript", 'Shadcn UI', "OpenRouter" , "Vercel"],

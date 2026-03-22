@@ -36,7 +36,7 @@ export default function Home() {
                 </Link>
               </Button>
               <Button asChild size="xl" variant="primary">
-                <a href="/Zayar_Shein_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/ZayarShein_Resume.pdf" target="_blank" rel="noopener noreferrer">
                   <IoDocumentTextOutline className="size-6"/>View Resume
                 </a>
               </Button>

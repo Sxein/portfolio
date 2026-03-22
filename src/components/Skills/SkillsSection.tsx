@@ -62,7 +62,7 @@ const categories = [
 export default function Skills() {
     return (
         <section id="skills" className="md:py-20 py-10 w-full bg-background">
-            <div className="max-w-6xl mx-auto px-10 ">
+            <div className="max-w-6xl mx-auto px-10">
                 <FadeIn>
                     <div className="text-center mb-16"> 
                         <h2 className="text-4xl md:text-5xl font-bold text-foreground">My Tech Stack</h2>
@@ -70,13 +70,13 @@ export default function Skills() {
                     </div>
                 </FadeIn>
                 {categories.map((category, index) => (
-                    <div key={index} className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10 mb-10">
-                        <div className="w-full md:w-1/3 md:pt-2 shrink-0">
+                    <div key={index} className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-2 mb-10">
+                        <div className="w-full md:w-1/5 md:pt-2 shrink-0">
                             <FadeIn delay={index * 0.1}>
                                 <h2 className="text-2xl text-foreground font-semibold text-center md:text-start">{category.title}</h2>
                             </FadeIn>
                         </div>
-                        <div className="flex flex-wrap w-full md:w-2/3 md:gap-5 gap-4 justify-center md:justify-start rounded-lg">
+                        <div className="grid grid-cols-2 w-full md:w-3/4 md:flex md:flex-wrap md:gap-5 gap-4 justify-center md:justify-start rounded-lg">
                             {category.skills.map((skill, idx) => (
                                 <FadeIn key={idx} delay={(index * 0.1) + (idx * 0.05)}>
                                     <SkillCard {...skill} />

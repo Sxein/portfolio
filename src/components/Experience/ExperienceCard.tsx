@@ -16,7 +16,7 @@ export default function ExperienceCard({ role, company, companyLink, duration, d
                 after:absolute after:left-2 sm:after:left-0 after:size-3 after:bg-sky-500 after:ring-4 after:ring-sky-100 dark:after:ring-sky-900/30 after:rounded-full sm:after:ml-38 after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:z-10 group-hover:after:scale-125 transition-transform duration-300`
             }>
                 <time className="sm:absolute left-0 top-1/2 -translate-y-1/2 inline-flex items-center justify-center sm:justify-end mb-8 sm:mb-0 sm:pr-6 sm:w-36">
-                    <span className="text-xs font-semibold uppercase px-4 py-1 text-sky-600 bg-sky-50 dark:bg-sky-900/20 border border-sky-100 dark:border-sky-800 rounded-full sm:text-sm sm:font-medium">
+                    <span className="text-xs font-semibold uppercase px-4 py-1 text-sky-600 bg-sky-50 dark:bg-sky-900/20 border border-sky-100 dark:border-sky-800 rounded-full sm:text-xs sm:font-medium">
                         {duration}
                     </span>
                 </time>

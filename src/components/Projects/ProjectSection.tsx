@@ -10,9 +10,9 @@ const projects = [
         image: "/JurisAI.tech.png"
     },
     {
-        title: "Legal Onboarding Bot",
-        description: "A multilingual Telegram bot and secure backend system that automates legal onboarding for migrant workers, featuring real-time translation, dynamic AI interviews, and automated affidavit generation.",
-        technologies: ["OpenClaw", "Telegram Bot API"],
+        title: "Legal Onboarding Agent",
+        description: "An agent that automates legal onboarding for migrant workers, featuring dynamic AI-powered interviews, and automated affidavit generation.",
+        technologies: ["OpenClaw", "Ollama"],
         liveLink: "https://youtu.be/g4YsYH6fByI",
         image: '/JurisAI_OnBoarder.png'
     },

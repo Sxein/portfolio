@@ -1,7 +1,8 @@
 import { Expressjs, Nextjs, TypeScript, JavaScript, Python, 
     Docker, Git, MongoDB, PostgreSQL, Postman, MySQL, TailwindCSS, 
     React, Django, AmazonWebServices, Prisma, Supabase, Nodejs, Firebase, 
-    Shadcnui, OpenRouter, OpenClaw, GitHub, HTML5, CSS } from "../ui/DevIcons"
+    Shadcnui, OpenRouter, OpenClaw, GitHub, HTML5, CSS, 
+    Ollama} from "../ui/DevIcons"
 import SkillCard from "./SkillCard"
 import FadeIn from "../ui/FadeIn"
 
@@ -49,6 +50,7 @@ const categories = [
         skills: [
             { name: "OpenClaw", Icon: OpenClaw },
             { name: "OpenRouter", Icon: OpenRouter },
+            { name: "Ollama", Icon: Ollama },
             { name: "Docker", Icon: Docker },
             { name: "Git", Icon: Git },
             { name: "GitHub", Icon: GitHub },
